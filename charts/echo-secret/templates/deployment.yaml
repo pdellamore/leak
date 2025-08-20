@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: secret-test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: secret-test
+  template:
+    metadata:
+      labels:
+        app: secret-test
+    spec:
+      containers:
+        - name: busybox
+          image: busybox
+          command: ["sleep", "3600"]
+          env:
+            - name: PASSWORD
+              value: "{{ .Values.env.PASSWORD }}"
