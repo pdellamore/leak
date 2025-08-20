@@ -1,5 +1,5 @@
 helm:
-  chart: ./
+  chart: .
   values:
     env:
       PASSWORD: "supersecret123"
