@@ -1,12 +1,6 @@
 # Slack webhook (padrão oficial)
 https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
 
-# GitHub PAT (ghp_ + 36 chars)
-ghp_1234567890abcdef1234567890abcdef1234
-
-# Google API key (prefixo AIza)
-AIzaSyD-abcdefghijklmnopqrstuvwxyz0123456789ABCD
-
 # Private key block
 -----BEGIN PRIVATE KEY-----
 MIIBVgIBADANBgkqhkiG9w0BAQEFAASCAT8wggE7AgEAAkEAzExampleBase64
