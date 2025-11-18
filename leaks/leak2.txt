@@ -1,0 +1,8 @@
+# Slack webhook (padrão oficial)
+https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
+
+# Private key block
+-----BEGIN PRIVATE KEY-----
+MIIBVgIBADANBgkqhkiG9w0BAQEFAASCAT8wggE7AgEAAkEAzExampleBase64
+ExampleBase64MoreCharsOnlyForTestingNotARealKey==
+-----END PRIVATE KEY-----
